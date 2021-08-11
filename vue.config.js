@@ -1,8 +1,8 @@
 module.exports = {
-    // publicPath: process.env.NODE_ENV === 'production'
-    //   ? '/vuepothesis/'
-    //   : '/'
-    // ,
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/vuepothesis/'
+      : '/'
+    ,
     chainWebpack: config => {
         config
           .plugin('html')
