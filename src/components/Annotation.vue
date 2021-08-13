@@ -1,8 +1,7 @@
 <template>
-
     <article
         class="w-full mb-4 p-8 bg-white shadow hover:shadow-xl rounded-lg transition"
-        :class=" an.selected ? 'bg-green-50' : ''">
+        :class="an.selected ? 'bg-green-50' : ''">
 
         <div class="flex justify-between content-center items-stretch">
 
